@@ -1,0 +1,27 @@
+{
+  "name": "vpn-panel-pro",
+  "version": "3.2.0",
+  "description": "VPN Panel with Xray Core for Railway",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "node scripts/install-xray.js || true",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^11.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.0",
+    "qrcode": "^1.5.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
