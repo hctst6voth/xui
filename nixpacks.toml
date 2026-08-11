@@ -1,0 +1,5 @@
+[phases.setup]
+aptPkgs = ["wget", "unzip"]
+
+[start]
+cmd = "node server.js"
